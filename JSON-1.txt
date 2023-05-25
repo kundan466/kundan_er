@@ -1,0 +1,367 @@
+﻿Prompt:  "A salesperson may manage many other salespeople. A salesperson is be managed by only one salespeople. A salesperson can be an agent for many customers. A customer is managed by one salespeople. A customer can place many orders. An order can be placed by one customer. An order may lists many items. An item may be listed on many orders. An item is assembled from many parts. A part may be assembled into many items. Many employees assemble an item from many parts. A supplier can supply many parts. A part may be supplied by many suppliers"
+
+
+JSON: 
+{
+    "entities": [
+        {
+            "id": "ent_1",
+            "name": "salesperson",
+            "POS": "NNS",
+            "properties": [
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "job_title"
+                },
+                {
+                    "attribute": "salary"
+                },
+                {
+                    "attribute": "address"
+                },
+                {
+                    "attribute": "email"
+                },
+                {
+                    "attribute": "sales_quota"
+                },
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "phone"
+                },
+                {
+                    "attribute": "joining_date"
+                },
+                {
+                    "attribute": "sales_region"
+                }
+            ]
+        },
+        {
+            "id": "ent_4",
+            "name": "agent",
+            "POS": "NNS",
+            "properties": [
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "job_title"
+                },
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "phone"
+                },
+                {
+                    "attribute": "department"
+                },
+                {
+                    "attribute": "address"
+                },
+                {
+                    "attribute": "email"
+                }
+            ]
+        },
+        {
+            "id": "ent_5",
+            "name": "customer",
+            "POS": "NNS",
+            "properties": [
+                {
+                    "attribute": "state"
+                },
+                {
+                    "attribute": "country"
+                },
+                {
+                    "attribute": "city"
+                },
+                {
+                    "attribute": "postal_code"
+                },
+                {
+                    "attribute": "email"
+                },
+                {
+                    "attribute": "address"
+                },
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "phone"
+                }
+            ]
+        },
+        {
+            "id": "ent_7",
+            "name": "order",
+            "POS": "NNS",
+            "properties": [
+                {
+                    "attribute": "product_ids"
+                },
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "total_amount"
+                },
+                {
+                    "attribute": "status"
+                },
+                {
+                    "attribute": "customer_id"
+                }
+            ]
+        },
+        {
+            "id": "ent_9",
+            "name": "item",
+            "POS": "NNS",
+            "properties": [
+                {
+                    "attribute": "price"
+                },
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "description"
+                },
+                {
+                    "attribute": "id"
+                }
+            ]
+        },
+        {
+            "id": "ent_11",
+            "name": "part",
+            "POS": "NNS",
+            "properties": [
+                {
+                    "attribute": "vendor"
+                },
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "description"
+                },
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "unit_price"
+                }
+            ]
+        },
+        {
+            "id": "ent_12",
+            "name": "employee",
+            "POS": "NNS",
+            "properties": [
+                {
+                    "attribute": "position"
+                },
+                {
+                    "attribute": "salary"
+                },
+                {
+                    "attribute": "state"
+                },
+                {
+                    "attribute": "country"
+                },
+                {
+                    "attribute": "city"
+                },
+                {
+                    "attribute": "postal_code"
+                },
+                {
+                    "attribute": "email"
+                },
+                {
+                    "attribute": "address"
+                },
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "phone"
+                },
+                {
+                    "attribute": "joining_date"
+                }
+            ]
+        },
+        {
+            "id": "ent_13",
+            "name": "supplier",
+            "POS": "NNS",
+            "properties": [
+                {
+                    "attribute": "contact_person"
+                },
+                {
+                    "attribute": "state"
+                },
+                {
+                    "attribute": "city"
+                },
+                {
+                    "attribute": "country"
+                },
+                {
+                    "attribute": "postal_code"
+                },
+                {
+                    "attribute": "email"
+                },
+                {
+                    "attribute": "address"
+                },
+                {
+                    "attribute": "products"
+                },
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "phone"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "id": "r1",
+            "name": "manage",
+            "entity_ids": [
+                {
+                    "id": "ent_1",
+                    "pos": "NNS"
+                },
+                {
+                    "id": "ent_1",
+                    "pos": "NNS"
+                }
+            ]
+        },
+        {
+            "id": "r3",
+            "name": "be",
+            "entity_ids": [
+                {
+                    "id": "ent_1",
+                    "pos": "NN"
+                },
+                {
+                    "id": "ent_4",
+                    "pos": "NN"
+                }
+            ]
+        },
+        {
+            "id": "r4",
+            "name": "manage",
+            "entity_ids": [
+                {
+                    "id": "ent_5",
+                    "pos": "NN"
+                },
+                {
+                    "id": "ent_1",
+                    "pos": "NN"
+                }
+            ]
+        },
+        {
+            "id": "r5",
+            "name": "place",
+            "entity_ids": [
+                {
+                    "id": "ent_5",
+                    "pos": "NN"
+                },
+                {
+                    "id": "ent_7",
+                    "pos": "NNS"
+                }
+            ]
+        },
+        {
+            "id": "r7",
+            "name": "list",
+            "entity_ids": [
+                {
+                    "id": "ent_7",
+                    "pos": "NNS"
+                },
+                {
+                    "id": "ent_9",
+                    "pos": "NNS"
+                }
+            ]
+        },
+        {
+            "id": "r9",
+            "name": "assemble",
+            "entity_ids": [
+                {
+                    "id": "ent_9",
+                    "pos": "NNS"
+                },
+                {
+                    "id": "ent_11",
+                    "pos": "NNS"
+                }
+            ]
+        },
+        {
+            "id": "r11",
+            "name": "assemble",
+            "entity_ids": [
+                {
+                    "id": "ent_12",
+                    "pos": "NNS"
+                },
+                {
+                    "id": "ent_9",
+                    "pos": "NN"
+                }
+            ]
+        },
+        {
+            "id": "r12",
+            "name": "supply",
+            "entity_ids": [
+                {
+                    "id": "ent_13",
+                    "pos": "NNS"
+                },
+                {
+                    "id": "ent_11",
+                    "pos": "NNS"
+                }
+            ]
+        }
+    ]
+}
