@@ -11,4 +11,4 @@ you can run manually using code from main.ipynb
 
 learning_dataset.csv is the dataset file 
 
-attributes.py is the domain-based dcitionary
+attributes.py is the domain-based dictionary
