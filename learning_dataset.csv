@@ -1,0 +1,638 @@
+Word,POS,label
+An,DT,O
+Employee,NNP,Entity
+works,NNS,Relation
+for,IN,O
+a,DT,O
+project,NN,Entity
+He,PRP,O
+has,VBZ,O
+a,DT,O
+number,NN,Attribute
+name,NN,Attribute
+and ,CC,O
+number-of-years,NNS,Attribute
+worked,VBN,O
+That,DT,O
+has,VBZ,O
+projectnumber,VBN,Attribute
+and ,CC,O
+a,DT,O
+budget,NN,Attribute
+department,NN,Entity
+Political,JJ,Attribute
+party,NNP,Entity
+belongs,NNS,Relation
+to,TO,O
+a,DT,O
+person,NN,Entity
+who,WP,O
+owns,VBZ,Relation
+car,NN,Entity
+product,NN,Entity
+is,VBZ,O
+shipped,VBN,Relation
+to,TO,O
+customer,NN,Entity
+This,DT,O
+shipping,NN,Relation
+is,VBZ,O
+performed,VBN,Relation
+by,IN,O
+clerk,NN,Entity
+manager,NN,Entity
+decides,VBZ,Relation
+an,DT,O
+assignment,NN,Entity
+company,NN,Entity
+has,VBZ,Relation
+50,CD,Cardinality
+plants,NN,Entity
+located,VBN,Relation
+in,IN,O
+40,CD,Cardinality
+states,NNS,Entity
+approximately,RB,O
+1000000,CD,Cardinality
+employees,NNS,Entity
+Each,DT,O
+plants,NN,Entity
+is,VBZ,O
+divided,VBN,Relation
+into,IN,O
+departments,NNS,Entity
+and ,CC,O
+further,RB,O
+subdivided,VBD,Relation
+into,IN,O
+work,NN,Entity
+stations,NNS,Entity
+each,DT,O
+department,NN,Entity
+There,EX,O
+is,VBZ,O
+an,DT,O
+on-line,JJ,O
+time,NN,O
+clock,NN,Entity
+which,WDT,O
+employees,NNS,Entity
+report,VBP,Relation
+their,PRP,O
+arrival,NN,Entity
+departure,NN,Entity
+A,DT,O
+work,NN,Entity
+task,NN,Entity
+is,VBZ,O
+associated,VBN,Relation
+with,IN,O
+one,CD,Cardinality
+of,IN,O
+20,CD,Cardinality
+different,JJ,O
+job type,NN,Entity
+Each,DT,O
+of,IN,O
+these,DT,O
+jobs,NN,Entity
+can,MD,O
+be ,VB,O
+performed,VBN,Relation
+at,IN,O
+each,DT,O
+of,IN,O
+the,DT,O
+plants,NNS,Entity
+During,IN,O
+a,DT,O
+given,VBN,O
+day,NN,O
+an,DT,O
+employee,NN,Entity
+may,MD,O
+performed,VB,Relation
+more,JJR,Attribute
+than,IN,O
+one,CD,Cardinality
+work,NN,Entity
+task,NN,Entity
+each,DT,O
+associated,VBN,Relation
+with,NN,O
+a,DT,O
+different,JJ,O
+job,NN,Entity
+type,NN,Entity
+and ,CC,O
+each,DT,O
+can,MD,O
+be,VB,O
+performed,VBN,Relation
+at,IN,O
+a,DT,O
+,,
+work,NN,Entity
+station,NN,Entity
+Each,DT,O
+work,NN,Entity
+station,NN,Entity
+has,VBZ,Relation
+on-line,JJ,O
+data,NNS,Entity
+entry,NN,Entity
+device,NN,Entity
+at,IN,O
+which,WDT,O
+employee,NN,Entity
+report,NN,Relation
+activity,NN,Entity
+on,IN,O
+work,NN,Entity
+task,NN,Entity
+There,EX,O
+are,VBP,O
+five,CD,Cardinality
+worker,NN,Attribute
+unions,NNS,Attribute
+represent,VBN,Relation
+company,NN,Entity
+every,DT,O
+employee,NN,Entity
+belongs,NNS,Relation
+to,TO,O
+exactly,RB,O
+one,CD,Cardinality
+union,NN,Entity
+ID,VBN,Attribute
+The,DT,O
+cat,NN,Entity
+sat,VBD,Relation
+on,IN,O
+mat,NN,Attribute
+in,IN,O
+house,NN,Entity
+dog,NN,Entity
+barked,VBD,Relation
+at,IN,O
+mailman,NN,Entity
+on,IN,O
+street,NN,Attribute
+She,PRP,O
+is,VBZ,Relation
+a,DT,O
+doctor,NN,Entity
+who,WP,O
+works,VBZ,Relation
+at,IN,O
+a,DT,O
+hospital,NN,Attribute
+They,PRP,O
+ate,VBD,Relation
+pizza,NN,Attribute
+and,CC,O
+watched,VBD,Relation
+a,DT,O
+movie,NN,Attribute
+at,IN,O
+home,NN,Attribute
+The,DT,O
+plant,NN,Entity
+grew,VBD,Relation
+towards,IN,O
+sunlight,NN,Attribute
+teacher,NN,Entity
+taught,VBD,Relation
+math,NN,Attribute
+in,IN,O
+a,DT,O
+classroom,NN,Attribute
+He,PRP,O
+drove,VBD,Relation
+a,DT,O
+car,NN,Entity
+to,IN,O
+store,NN,Attribute
+boy,NN,Entity
+threw,VBD,Relation
+a,DT,O
+ball,NN,Attribute
+across,IN,O
+playground,NN,Attribute
+She,PRP,O
+wore,VBD,Relation
+a,DT,O
+dress,NN,Attribute
+to,IN,O
+wedding,NN,Event
+phone,NN,Device
+rang,VBD,Relation
+loudly,RB,Attribute
+on,IN,
+car,NN,Entity
+drove,VBD,Relation
+down,IN,O
+highway,NN,Attribute
+She,PRP,O
+sang,VBD,Relation
+a,DT,O
+song,NN,Attribute
+at,IN,O
+concert,NN,Event
+boy,NN,Entity
+kicked,VBD,Relation
+ball,NN,Attribute
+into,IN,O
+goal,NN,Attribute
+baby,NN,Entity
+crawled,VBD,Relation
+towards,IN,O
+toy,NN,Attribute
+company,NN,Entity
+makes,VBZ,Relation
+phones,NNS,Entity
+and,CC,O
+laptops,NNS,Entity
+basketball,NN,Entity
+bounced,VBD,Relation
+on,IN,O
+court,NN,Attribute
+player,NN,Entity
+dribbled,VBD,Relation
+the,DT,O
+ball,NN,Attribute
+on,IN,O
+basketball,NN,Entity
+court,NN,Attribute
+She,PRP,O
+wrote,VBD,Relation
+a,DT,O
+book,NN,Attribute
+about,IN,O
+her,PRP$,O
+life,NN,Attribute
+company,NN,Entity
+launched,VBD,Relation
+a,DT,O
+new,JJ,Attribute
+product,NN,Attribute
+They,PRP,O
+celebrated,VBD,Relation
+holiday,NN,Event
+coffee,NN,Entity
+was,VBD,Relation
+brewed,VBN,Relation
+in,IN,O
+kitchen,NN,Attribute
+student,NN,Entity
+answered,VBD,Relation
+question,NN,Attribute
+in,IN,O
+class,NN,
+boy,NN,Entity
+played,VBD,Relation
+with,IN,O
+toy,NN,Attribute
+train,NN,Entity
+teacher,NN,Entity
+taught,VBD,Relation
+lesson,NN,Attribute
+cat,NN,Entity
+meowed,VBD,Relation
+at,IN,O
+door,NN,Attribute
+rain,NN,Entity
+poured,VBD,Relation
+outside,IN,O
+flower,NN,Entity
+bloomed,VBD,Relation
+in,IN,O
+garden,NN,Attribute
+dog,NN,Entity
+barked,VBD,Relation
+at,IN,O
+cat,NN,Entity
+man,NN,Entity
+worked,VBD,Relation
+in,IN,O
+office,NN,Attribute
+computer,NN,Entity
+crashed,VBD,Relation
+store,NN,Entity
+sells,VBZ,Relation
+clothes,NNS,Entity
+sun,NN,Entity
+shone,VBD,Relation
+brightly,RB,O
+team,NN,Entity
+won,VBD,Relation
+game,NN,Attribute
+house,NN,Entity
+was,VBD,Relation
+painted,VBN,Relation
+blue,JJ,Attribute
+girl,NN,Entity
+danced,VBD,Relation
+to,IN,O
+the,DT,O
+music,NN,Attribute
+phone,NN,Device
+rang,VBD,Relation
+river,NN,Entity
+flowed,VBD,Relation
+quickly,RB,O
+child,NN,Entity
+cried,VBD,Relation
+loudly,RB,O
+astronaut,NN,Entity
+walked,VBD,Relation
+on,IN,O
+surface,NN,Attribute
+of,IN,O
+moon,NN,Entity
+scientist,NN,Entity
+conducted,VBD,Relation
+an,DT,O
+experiment,NN,Attribute
+in,IN,O
+laboratory,NN,Entity
+artist,NN,Entity
+painted,VBD,Relation
+a,DT,O
+beautiful,JJ,Attribute
+landscape,NN,Entity
+doctor,NN,Entity
+performed,VBD,Relation
+a,DT,O
+surgery,NN,Attribute
+on,IN,O
+patient,NN,Entity
+author,NN,Entity
+wrote,VBD,Relation
+a,DT,O
+bestselling,JJ,Attribute
+novel,NN,Entity
+athlete,NN,Entity
+won,VBD,Relation
+gold,JJ,Attribute
+medal,NN,Entity
+in,IN,O
+the,DT,O
+Olympics,NNS,Entity
+The,DT,O
+musician,NN,Entity
+composed,VBD,Relation
+a,DT,O
+symphony,NN,Attribute
+for,IN,O
+orchestra,NN,Entity
+chef,NN,Entity
+cooked,VBD,Relation
+a,DT,O
+delicious,JJ,Attribute
+meal,NN,Entity
+in,IN,O
+restaurant,NN,Entity
+singer,NN,Entity
+performed,VBD,Relation
+a,DT,O
+beautiful,JJ,Attribute
+melody,NN,Entity
+on,IN,O
+stage,NN,Entity
+director,NN,Entity
+made,VBD,Relation
+entrepreneur,NN,Entity
+launched,VBD,Relation
+a,DT,O
+successful,JJ,Attribute
+startup,NN,Entity
+in,IN,O
+tech,NN,Entity
+industry,NN,Entity
+engineer,NN,Entity
+designed,VBD,Relation
+a,DT,O
+sophisticated,JJ,Attribute
+machine,NN,Entity
+learning,NN,Attribute
+algorithm,NN,Entity
+scientist,NN,Entity
+conducted,VBD,Relation
+groundbreaking,JJ,Attribute
+research,NN,Entity
+in,IN,O
+field,NN,Entity
+of,IN,O
+physics,NNS,Entity
+philosopher,NN,Entity
+published,VBD,Relation
+an,DT,O
+influential,JJ,Attribute
+work,NN,Entity
+on,IN,O
+nature,NN,Attribute
+of,IN,O
+reality,NN,Entity
+mathematician,NN,Entity
+solved,VBD,Relation
+a,DT,O
+complex,JJ,Attribute
+problem,NN,Entity
+in,IN,O
+field,NN,Entity
+of,IN,O
+algebra,NN,Entity
+economist,NN,Entity
+predicted,VBD,Relation
+a,DT,O
+recession,NN,Entity
+in,IN,O
+global,JJ,Attribute
+market,NN,Entity
+writer,NN,Entity
+authored,VBD,Relation
+a,DT,O
+critically,RB,Attribute
+acclaimed,JJ,Attribute
+novel,NN,Entity
+designer,NN,Entity
+created,VBD,Relation
+a,DT,O
+revolutionary,JJ,Attribute
+product,NN,Entity
+for,IN,O
+artist,NN,Entity
+painted,VBD,Relation
+a,DT,O
+stunning,JJ,Attribute
+portrait,NN,Entity
+of,IN,O
+landscape,NN,Attribute
+The,DT,O
+musician,NN,Entity
+composed,VBD,Relation
+a,DT,O
+beautiful,JJ,Attribute
+symphony,NN,Entity
+in,IN,O
+classical,JJ,Attribute
+genre,NN,Entity
+scientist,NN,Entity
+discovered,VBD,Relation
+a,DT,O
+new,JJ,Attribute
+species,NNS,Entity
+of,IN,O
+insect,NN,Entity
+historian,NN,Entity
+wrote,VBD,Relation
+a,DT,O
+seminal,JJ,Attribute
+book,NN,Entity
+on,IN,O
+the,DT,O
+history,NN,Entity
+of,IN,O
+the,DT,O
+Middle,JJ,Attribute
+Ages,NNS,Entity
+surgeon,NN,Entity
+performed,VBD,Relation
+a,DT,O
+successful,JJ,Attribute
+operation,NN,Entity
+on,IN,O
+patient,NN,Entity
+artist,NN,Entity
+sculpted,VBD,Relation
+a,DT,O
+magnificent,JJ,Attribute
+statue,NN,Entity
+of,IN,O
+goddess,NN,Entity
+writer,NN,Entity
+penned,VBD,Relation
+a,DT,O
+bestselling,JJ,Attribute
+novel,NN,Entity
+about,IN,O
+life,NN,Attribute
+of,IN,O
+an,DT,O
+adventurer,NN,Entity
+director,NN,Entity
+produced,VBD,Relation
+a,DT,O
+lists,NNS,Relation
+enrolls,VBZ,Relation
+assemble,VBP,Relation
+when,WRB,O
+where,WRB,O
+why,WRB,O
+how,WRB,O
+whose,WP,O
+who,WP,O
+what,WP,O
+whom,WP,O
+whoever,WP,O
+whatever,WP,O
+which,WDT,O
+what,WDT,O
+whose,WDT,O
+walks ,VBZ,Relation
+talks ,VBZ,Relation
+eats ,VBZ,Relation
+sleeps,VBZ,Relation
+walk,VBP,Relation
+talk,VBP,Relation
+eat,VBP,Relation
+sleep,VBP,Relation
+walked ,VBN,Relation
+talked ,VBN,Relation
+eaten ,VBN,Relation
+slept,VBN,Relation
+walking ,VBG,Relation
+talking ,VBG,Relation
+eating,VBG,Relation
+sleeping,VBG,Relation
+walked ,VBD,Relation
+talked ,VBD,Relation
+ate,VBD,Relation
+slept,VBD,Relation
+walk ,VB,Relation
+talk ,VB,Relation
+eat ,VB,Relation
+sleep,VB,Relation
+oh ,UH,O
+wow ,UH,O
+darn ,UH,O
+shoot,UH,O
+% ,SYM,O
+$ ,SYM,O
+# ,SYM,O
+& ,SYM,O
+@,SYM,O
+ up ,RP,O
+out ,RP,O
+off ,RP,O
+down,RP,O
+and ,CC,O
+or ,CC,O
+but ,CC,O
+yet,CC,O
+one ,CD,Cardinality
+two ,CD,Cardinality
+three ,CD,Cardinality
+rendezvous ,FW,O
+au revoir,FW,O
+bigger ,JJR,Attribute
+smaller ,JJR,Attribute
+happier ,JJR,Attribute
+sadder ,JJR,Attribute
+bluer ,JJR,Attribute
+greener,JJR,Attribute
+biggest ,JJS,Attribute
+smallest ,JJS,Attribute
+happiest ,JJS,Attribute
+saddest ,JJS,Attribute
+bluest ,JJS,Attribute
+greenest,JJS,Attribute
+1) ,LS,O
+2) ,LS,O
+3),LS,O
+Johns ,NNPS,Entity
+Marys ,NNPS,Entity
+IBMs ,NNPS,Entity
+Microsofts,NNPS,Entity
+all ,PDT,Cardinality
+both ,PDT,Cardinality
+half ,PDT,Cardinality
+many ,PDT,Cardinality
+several,PDT,Cardinality
+more quickly,RBR,O
+ more slowly ,RBR,O
+more quietly ,RBR,O
+more loudly ,RBR,O
+more easily,RBR,O
+most quickly ,RBS,O
+most slowly ,RBS,O
+most quietly ,RBS,O
+most loudly ,RBS,O
+most easily,RBS,O
+lists,VBZ,Relation
+university,NN,Entity
+course,NNS,Entity
+assign,VBN,Relation
+least,JJS,Attribute
+more,JJ,O
+assign,VB,Relation
+student,NNS,Entity
+course,NN,Entity
+teach,VBN,Relation
+single,JJ,Attribute
+professor,NN,Entity
+maintain,VB,Relation
+instruction,NN,Entity
+quality,NN,Entity
+deliver,VB,Relation
