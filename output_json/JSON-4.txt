@@ -1,0 +1,163 @@
+﻿Prompt: "In a university, a Student enrolls in Courses. A student must be assigned to at least one or more Courses. A courses can be assigned to more than one student. Each course is taught by a single Professor. To maintain quality, a Professor can deliver only one course"
+
+
+JSON:
+{
+    "entities": [
+        {
+            "id": "ent_1",
+            "name": "university",
+            "POS": "NN",
+            "properties": [
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "Engineering"
+                }
+            ]
+        },
+        {
+            "id": "ent_2",
+            "name": "student",
+            "POS": "NN",
+            "properties": [
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "phone"
+                },
+                {
+                    "attribute": "address"
+                },
+                {
+                    "attribute": "email"
+                }
+            ]
+        },
+        {
+            "id": "ent_4",
+            "name": "course",
+            "POS": "NN",
+            "properties": [
+                {
+                    "attribute": "id"
+                },
+                {
+                    "attribute": "faculty"
+                },
+                {
+                    "attribute": "credits"
+                },
+                {
+                    "attribute": "name"
+                },
+                {
+                    "attribute": "department"
+                }
+            ]
+        },
+        {
+            "id": "ent_8",
+            "name": "professor",
+            "POS": "NN",
+            "properties": []
+        },
+        {
+            "id": "ent_10",
+            "name": "quality",
+            "POS": "NN",
+            "properties": []
+        }
+    ],
+    "relations": [
+        {
+            "id": "r1",
+            "name": "enrolls",
+            "entity_ids": [
+                {
+                    "id": "ent_2",
+                    "pos": "NN"
+                },
+                {
+                    "id": "ent_4",
+                    "pos": "NNS"
+                }
+            ]
+        },
+        {
+            "id": "r2",
+            "name": "assign",
+            "entity_ids": [
+                {
+                    "id": "ent_2",
+                    "pos": "NNS"
+                },
+                {
+                    "id": "ent_4",
+                    "pos": "NNS"
+                }
+            ]
+        },
+        {
+            "id": "r4",
+            "name": "is",
+            "entity_ids": [
+                {
+                    "id": "ent_4",
+                    "pos": "NN"
+                },
+                {
+                    "id": "ent_8",
+                    "pos": "NN"
+                }
+            ]
+        },
+        {
+            "id": "r5",
+            "name": "teach",
+            "entity_ids": [
+                {
+                    "id": "ent_4",
+                    "pos": "NN"
+                },
+                {
+                    "id": "ent_8",
+                    "pos": "NN"
+                }
+            ]
+        },
+        {
+            "id": "r6",
+            "name": "maintain",
+            "entity_ids": [
+                {
+                    "id": "ent_8",
+                    "pos": "NN"
+                },
+                {
+                    "id": "ent_10",
+                    "pos": "NN"
+                }
+            ]
+        },
+        {
+            "id": "r7",
+            "name": "deliver",
+            "entity_ids": [
+                {
+                    "id": "ent_8",
+                    "pos": "NN"
+                },
+                {
+                    "id": "ent_4",
+                    "pos": "NN"
+                }
+            ]
+        }
+    ]
+}
